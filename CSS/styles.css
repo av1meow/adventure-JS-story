@@ -1,0 +1,23 @@
+/*i want this to work please*/
+body {
+  background-color: #000066;
+}
+
+h1 {
+  color:#ccff33;
+  font-size: 44px;
+}
+/*h1 highlighter*/
+span.highlight {
+  background-color:#000000;
+}
+
+p {
+  color:#ffff00;
+  font-size:32px;
+}
+
+li {
+  color:#ff9900;
+  font-size: 30px;
+}

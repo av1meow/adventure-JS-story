@@ -1,11 +1,11 @@
 // want all the prompt in one box but to target each switch and the right case and right dfault
-var ventureType = prompt("You wanna go on ventures?");
+var ventureType = prompt("You wanna go on Ventures?");
 switch(ventureType) {
 	  case "yes":
   		var yesVenture = prompt("Where do you wanna go? Downtown Fresno, School, Hiking, Roadtrip ?");
-    	switch(yesVenture){
+			switch(yesVenture) {
+// Can choose from 3 different places around Downtown Fresno
           case "Downtown Fresno":
-//you can have ventures downtown wit diff events n times going on
             var downTownFresno = prompt("Downtown Fresno A,  Downtown Fresno B,  Downtown Fresno C");
             switch(downTownFresno) {
               case "Downtown Fresno A":
@@ -37,10 +37,10 @@ switch(ventureType) {
               default:
                 alert("! Venture Going");
           }
-         break;
+          break;
+//hiking ventures can choose from 3 different ventures
         case "Hiking":
-//hiking ventures can choose from 3 diiferent ventures
-         	var hikingVentures = prompt("Hiking A , Hiking B , Hiking C");
+					  var hikingVentures = prompt("Hiking A , Hiking B , Hiking C");
             switch (hikingVentures) {
               case "Hiking A":
                 alert("You hiked Off a Cliff");
@@ -54,6 +54,8 @@ switch(ventureType) {
               default:
                 alert("! Venture Going");
             }
+					break;
+//  roadtrip venture can choose from 3 different ventures
         case "Roadtrip":
             var roadTrip = prompt("Roadtrip A , Roadtrip B , Roadtrip C");
             switch (roadTrip) {
